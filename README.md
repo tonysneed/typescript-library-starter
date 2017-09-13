@@ -85,7 +85,14 @@ After pushing your first commit to master, Travis CI will run a CI build that ru
 ### Git Hooks
 
 By default, there is a disabled git hook. It's set up when you run the `npm run semantic-release-prepare` script. They make sure:
- - Your build is not gonna fail in [Travis](https://travis-ci.org) (or your CI server), since it's runned locally before `git push`
+ - Your build is not going fail in [Travis](https://travis-ci.org) (or your CI server), since it's runned locally before `git push`
+
+### Manually Creating a Release and Publishing to NPM
+
+When you're ready to publish a release on GitHub, just do it.
+  - You may want to follow a [branching model](http://nvie.com/posts/a-successful-git-branching-model) such as [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) or [GitHub Flow](https://help.github.com/articles/github-flow).
+
+To publish to NPM manually, just follow their [instructions](https://docs.npmjs.com/getting-started/publishing-npm-packages).
 
 ### FAQ
 
