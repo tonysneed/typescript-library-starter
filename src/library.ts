@@ -1,1 +1,1 @@
-export { Dummy } from './--libraryname--';
+export { Dummy } from './dummy';

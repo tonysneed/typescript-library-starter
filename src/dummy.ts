@@ -1,7 +1,13 @@
-import { Person } from './models/person.spec';
-
+/**
+ * Dummy class
+ */
 export class Dummy {
-  getPerson(name: string): Person {
-    return new Person(name);
+  /**
+   * Gets a person.
+   * @param  {string} name
+   * @returns An object with a name.
+   */
+  getPerson(name: string): any {
+    return { name: 'john' };
   }
 }
