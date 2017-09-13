@@ -8,6 +8,6 @@ export class Dummy {
    * @returns An object with a name.
    */
   getPerson(name: string): any {
-    return { name: 'john' };
+    return { name: name };
   }
 }

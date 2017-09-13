@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "module": "dist/--libraryname--.js",
+  "main": "dist/--libraryname--.umd.js",
+  "module": "dist/--libraryname--.es2015.js",
   "typings": "dist/types/--libraryname--.d.ts",
   "files": [
     "dist"
