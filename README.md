@@ -62,8 +62,13 @@ The good news is here is setup for you, you only must include the dependency nam
 
 ### Automatic CI builds and Docs generation
 
-_**Prerequisites**: you need to create/login accounts and add your project to:_
+_**Prerequisites**: you need to create accounts for:_
  - [Travis CI](https://travis-ci.org/)
+ - [NPM](https://www.npmjs.com/)
+
+After publishing your repo to GitHub, copy the clone URL and paste it into the `url` property of the `repository` section of your package.json file.
+
+Then log into Travis CI and add the repository to your account.
 
 Run the following command to prepare hooks and stuff:
 
@@ -78,6 +83,10 @@ npm install -g semantic-release-cli
 semantic-release-cli setup
 # IMPORTANT!! Answer NO to "Generate travis.yml" question. Is already prepared for you :P
 ```
+
+You will be prompted for your Travis and GitHub credentials so that Travis CI can publish docs to GitHub Pages.
+
+> Note: Semantic release will ask for your your NPM credentials, but these will not be used because automatic releases are disabled.
 
 After pushing your first commit to master, Travis CI will run a CI build that runs your tests and generates documentation for your library.
   - After the CI build completes, you can go to the Settings for your repo to note the URL where your docs are published to GitHub Pages.
