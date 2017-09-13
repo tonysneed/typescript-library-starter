@@ -48,8 +48,11 @@
     ]
   },
   "devDependencies": {
+    "@angular/compiler": "^4.3.6",
+    "@angular/core": "^4.3.6",
     "@types/jest": "^20.0.0",
     "@types/node": "^8.0.0",
+    "codelyzer": "^3.2.0",
     "colors": "^1.1.2",
     "cross-env": "^5.0.1",
     "husky": "^0.14.0",
@@ -66,8 +69,9 @@
     "ts-jest": "^21.0.0",
     "ts-node": "^3.0.6",
     "tsc-watch": "^1.0.5",
-    "tslint": "^5.4.3",
+    "tslint": "^5.7.0",
     "typedoc": "^0.7.1",
-    "typescript": "^2.3.4"
+    "typescript": "^2.5.2",
+    "zone.js": "^0.8.17"
   }
 }

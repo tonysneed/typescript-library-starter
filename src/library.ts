@@ -1,3 +1,1 @@
-export class DummyClass {
-
-}
+export { Dummy } from './--libraryname--';

@@ -9,7 +9,6 @@ const libraryName = '--libraryname--'
 export default {
   entry: `compiled/${libraryName}.js`,
   targets: [
-	  { dest: pkg.main, moduleName: camelCase(libraryName), format: 'umd' },
 	  { dest: pkg.module, format: 'es' }
   ],
   sourceMap: true,

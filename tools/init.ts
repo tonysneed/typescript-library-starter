@@ -29,16 +29,11 @@ function setupProject() {
     () => {
       // Rename main file and test
       const renamedFiles = [
-        `src/${libraryName}.ts`,
-        `src/${libraryName}.spec.ts`
+        `src/${libraryName}.ts`
       ]
       mv(
         path.resolve(__dirname, "..", "src/library.ts"),
         path.resolve(__dirname, "..", renamedFiles[0])
-      )
-      mv(
-        path.resolve(__dirname, "..", "src/library.spec.ts"),
-        path.resolve(__dirname, "..", renamedFiles[1])
       )
 
       console.log()
@@ -96,7 +91,6 @@ const files = [
   resolve("package.json"),
   resolve("rollup.config.js"),
   resolve("LICENSE"),
-  resolve("src/library.spec.ts"),
   resolve("tools/gh-pages-publish.ts")
 ]
 
