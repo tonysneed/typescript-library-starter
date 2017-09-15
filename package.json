@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "dist/--libraryname--.umd.js",
-  "module": "dist/--libraryname--.es2015.js",
+  "module": "dist/--libraryname--.es5.js",
   "typings": "dist/types/--libraryname--.d.ts",
   "files": [
     "dist"
